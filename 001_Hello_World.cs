@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Week_2
+namespace Basics
 {
     class MainClass
     {
