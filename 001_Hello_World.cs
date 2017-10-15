@@ -14,6 +14,8 @@ namespace Basics
             // If the WriteLine method are being used to show simple text strings,
             // double quotes "" must be used, and the text inside the parenthesis ("text") will be displayed.
             // The line below is your first C# console application. It displays the text  "Hello World" to the user.
+            
+            // You can copy and paste the line 20 into your IDE of choice and see how this code works.
 
             Console.WriteLine("Hello World!");
         }
