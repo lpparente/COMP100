@@ -1,5 +1,5 @@
 /*
-In the context of C#, "Console" is a class that is invoked always when there is a need to interact with the user
+In C#, "Console" is a class that is invoked always when there is a need to interact with the user
 via Console. As we are starting in a context of console applications, the Console will be used to both display 
 outputs and gather inputs from the user.
 
