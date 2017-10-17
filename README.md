@@ -1,4 +1,4 @@
-# C# Introduction
+# C# In A Nutshell
 
 This repository contains sequential files segmented in short C# lessons. There is a hint as to what the subject of each lesson is on the file's name.
 
