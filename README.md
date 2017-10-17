@@ -4,7 +4,7 @@ This repository contains sequential files segmented in short C# lessons. There i
 
 Each file contains detailed instructions and explanations for each code line. They can be either downloaded or have their content copied and pasted into your IDE of choice.
 
-In the end of each file there are exploration exercises for the user to put in practice what has been just taught. Subsequential files are the answers to those exercises.
+In the end of each file there are exploration exercises for the user to put in practice what has been just taught. The subsequential file may contain the solution to those exercises.
 
 The files are provided as is, and its use and visualization are considered user's full responsibility. The owner of this repository must not be held liable or responsible for the use or misuse of the content shared within any of the files herein attached.
 
