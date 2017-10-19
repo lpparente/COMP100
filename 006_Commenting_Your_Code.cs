@@ -16,6 +16,14 @@ namespace Variables
             /*
             Or, in case a block of comments with more than one line is needed, you can do it like this!
             Then you can have multiple lines to write anything that is relevant to your code.
+            
+            The compiler will ignore these lines, so whatever is written in these blocks will not be displayed to the user!
+            
+            Do you want to check?
+            
+            Console.WriteLine("Can you see this?");
+            
+            I don't think so!
             */
 
             /*
