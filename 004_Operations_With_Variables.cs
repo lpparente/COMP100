@@ -77,7 +77,8 @@ namespace Variables
             Console.WriteLine("Please input the second number: ");
             double number2 = Convert.ToDouble(Console.ReadLine());
 
-            // We just learned another trick: Convert strings into double numbers. That is very useful!
+            // We just learned another trick: How to convert strings into doubles. This is very useful!
+            // But don't worry much about converting now. It will be better explained in the next lesson.
             // Now we continue our code and multiply them, showing the result to the user.
 
             Console.WriteLine(number1 * number2);
