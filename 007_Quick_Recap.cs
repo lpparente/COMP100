@@ -7,9 +7,7 @@ namespace Variables
         public static void Main(string[] args)
         {
             /*
-            This is the end of Module 1.
-
-            Before we continue to the nexts modules, it is highly recommended that you make sure that
+            Before we continue to the next lessons, it is highly recommended that you make sure that
             you are comfortable with everything that have been covered so far.
 
             So, let's do a quick recap.
