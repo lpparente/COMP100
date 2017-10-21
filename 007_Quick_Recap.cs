@@ -1,4 +1,11 @@
-﻿using System;
+/*
+Before we continue to the next lessons, it is highly recommended that you make sure that
+you are comfortable with everything that have been covered so far.
+
+So, let's do a quick recap.
+*/
+
+using System;
 
 namespace Variables
 {
@@ -6,13 +13,6 @@ namespace Variables
     {
         public static void Main(string[] args)
         {
-            /*
-            Before we continue to the next lessons, it is highly recommended that you make sure that
-            you are comfortable with everything that have been covered so far.
-
-            So, let's do a quick recap.
-            */
-
             // The most common data types that we have worked with are:
 
             // Strings:
