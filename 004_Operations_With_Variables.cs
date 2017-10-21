@@ -12,7 +12,6 @@ following lines will do just that.
 You can copy and paste the lines below into your IDE of choice to see how this code works.
 */
 
-
 using System;
 
 namespace Variables
