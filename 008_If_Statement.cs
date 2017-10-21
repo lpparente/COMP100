@@ -1,4 +1,18 @@
-﻿using System;
+/*
+There are times when coding an application that not all lines of code are meant to run
+every time. When that is the case, the application has only one very limited purpose.
+We want to strive beyond that, don't we?
+
+This lesson will teach you how to code a smarter code, in the sense that it will be able
+to make decisions based on specific conditions.
+
+This is called a Control Structure, meaning that a set of instructions will be performed
+in case a condition is satisfied.
+
+You can copy and paste the lines below into your IDE of choice to see how this code works.
+*/
+
+using System;
 
 namespace Variables
 {
@@ -6,20 +20,6 @@ namespace Variables
     {
         public static void Main(string[] args)
         {
-            /*
-            There are times when coding an application that not all lines of code are meant to run
-            every time. When that is the case, the application has only one very limited purpose.
-            We want to strive beyond that, don't we?
-
-            This lesson will teach you how to code a smarter code, in the sense that it will be able
-            to make decisions based on specific conditions.
-
-            This is called a Control Structure, meaning that a set of instructions will be performed
-            in case a condition is satisfied.
-
-            You can copy and paste the lines below into your IDE of choice to see how this code works.
-            */
-
             // As an example, we want to write a code that checks if the user is old enough to drive a car.
 
             // We prompt the user for their age:
