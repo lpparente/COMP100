@@ -158,7 +158,7 @@ namespace Variables
 }
 
 /*
-EXPLORATION EXERCISES - Solutions:
+EXPLORATION EXERCISES:
 
 Retry the exercises from last time, now using else and else if statements.
 
