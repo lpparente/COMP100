@@ -20,7 +20,7 @@ You can copy and paste the lines below into your IDE of choice to see how this c
 
 using System;
 
-namespace Variables
+namespace CSharp
 {
     class MainClass
     {
