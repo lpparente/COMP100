@@ -5,7 +5,7 @@ more on how to convert between different data types, and also introduce new Data
 
 using System;
 
-namespace Variables
+namespace CSharp
 {
     class MainClass
     {
