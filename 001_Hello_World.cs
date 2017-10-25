@@ -16,7 +16,7 @@ choice and see how this code works.
 
 using System;
 
-namespace Basics
+namespace CSharp
 {
     class MainClass
     {
