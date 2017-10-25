@@ -7,7 +7,7 @@ So, let's do a quick recap.
 
 using System;
 
-namespace Variables
+namespace CSharp
 {
     class MainClass
     {
