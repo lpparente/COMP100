@@ -9,7 +9,7 @@ introduced to are:
 
 - Strings
 - Integers
-- Double
+- Doubles
 
 There are many other Data Types in C#, but those will be introduced later, in a more suitable occasion.
 
@@ -31,7 +31,7 @@ You can copy and paste the lines below into your IDE of choice to see how this c
 
 using System;
 
-namespace Variables
+namespace CSharp
 {
     class MainClass
     {
