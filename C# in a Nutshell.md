@@ -1,7 +1,11 @@
-#C# in a Nutshell
-###Introduction - What is C#?
+# C# in a Nutshell
+### Introduction - What is C#?
+
 C# is a programming language. 
-'''
-Code example.
-'''
-Bla.
+
+```csharp
+// Code example:
+string salute = "Hello World!";
+```
+
+This is a test file.
