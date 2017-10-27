@@ -20,7 +20,7 @@ In a nutshell:
 - Doubles are numbers that contain a decimal point (i.e. 2.5).
 
 In real life, when you need a box, you must know what you want to store in it. If you need to
-put in a pair of shoes, you need a shoe box. if you need to pit in a hat, you need a hat box.
+put in a pair of shoes, you need a shoe box. If you need to pit in a hat, you need a hat box.
 In programming, things work very similarly. In order to create a variable, you must know
 what is going to be stored in that variable in advance. If you need a variable to store text,
 you need a variable of the "string" type. If you need to store numbers, you will need either an
@@ -37,7 +37,7 @@ namespace CSharp
     {
         public static void Main(string[] args)
         {
-            //Suppose you want to code an application that shows my name on the console.
+            //Suppose you want to code an application that shows your name on the console.
             //Your name is a string, so we need to declare a string variable.
             string name;
 
