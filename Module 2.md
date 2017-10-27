@@ -267,7 +267,7 @@ Console.WriteLine("Please input the total amount of your purchase: ");
 double totalPrice = Convert.ToDouble(Console.ReadLine());
 
 // There are 99 values between $0 and $99 that get no discount. Only one If statement covers them all.
-if (totalPrice < 99)
+if (totalPrice <= 99)
 {
     Console.WriteLine("Unfortunately your purchase value is not elligible for a discount.");
 }
