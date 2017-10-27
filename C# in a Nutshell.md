@@ -398,3 +398,166 @@ namespace CSharp
 
 *****
 
+### Lesson 5 - Converting Data Types (005_Converting_Data_Types.cs)
+
+We have already lerned that data comes in many different types. This lesson is going to cover more on how to convert between different data types, and also introduce new Data Types.
+
+These are the data types we were introduced so far:
+
+```csharp
+string name = "Bob";
+int age = 25;
+double pi = 3.14159;
+```
+
+We also know that we can do various operations with numbers, but not all operations can be done with strings.
+
+```csharp
+Console.WriteLine(name * pi)        // returns an ERROR!
+Console.WriteLine(name + name)      // returns "BobBob"
+```
+
+When the user is prompted for an input, this input will get into the application as a String. **Always**, everything that is typed into the Console is String!
+
+Let's write an application that prompts the user for an information, and then does something with it.
+
+```csharp
+Console.WriteLine("How many wheels does a car have?");
+```
+
+If we intend to use this information for mathematical operations, we MUST convert it to a suitable Data Type. the Convert.ToInt32() method will convert the input to an Integer.
+
+```csharp
+int wheels = Convert.ToInt32(Console.ReadLine());
+```
+
+How many wheels are there in a garage with 5 cars?
+
+```csharp
+Console.WriteLine("A garage with 5 cars has {0} wheels.", wheels * 5);
+```
+
+However, there are times in which the user inputs a number, but we will not use it for any calculation. Sometimes this is just an information that will be displayed, or stored in a data base. Like a phone number, for example.
+
+Here is another example in which no conversion is needed:
+
+```csharp
+Console.WriteLine("How many people are there in your family? ");
+string familyMembers = Console.ReadLine();
+
+Console.WriteLine("Your family has {0} people.", familyMembers);
+```
+
+Different variables may contain the same value, but in different types:
+
+```csharp
+var value1 = 10;
+var value2 = "10";
+```
+
+Variables value1 is different than value2! One is a number, the other is a string. Be careful!
+
+By the way, "var" is a keyword that can be used to declare new variables.
+
+Instead of using specific keywords, such as "string", "int", "double" (etc.) for different variables, you can just use "var", and C# will automatically detect which Data Type the new variable is. Be careful with its use!
+
+There are other important Data Types in C#: bool and char.
+
+```csharp 
+bool variable1 = true;
+char variable2 = 'a';
+``` 
+
+Now, "bool" is a Data Type that can either be "true" or "false". No other value is permitted. It has many applications in the context of programming.
+
+And "char" is a Data Type that is very similar to a string, but it only contains one character. The values stored in a char variable must contain single quotes ' ', and not douple quotes " " as strings.
+
+This is a good way to differentiate strings from chars: chars have single quotes ' ', strings have double quotes " ".
+
+As there are many different Data Types, it is important to know when and how to convert between types. It may be the only difference between a functional code and a non-functional code.
+
+We have already converted a few Data Types before, by using the Convert.To... method. This method can be used to convert between String and whatever the desired Data Type is. If you are converting from or to a String, ALWAYS use Convert.To...
+
+```csharp
+var newVariable1 = Convert.ToString(variable1);
+var newVariable2 = Convert.ToString(variable2);
+```
+
+Not all conversions are easily accepted by C#. In order to convert between Data Types, we must make sure that the destination type accepts the value we want to assign to it.
+
+For example, if we have a string "Bob", we cannot convert this value to a number! Letters are not numbers! Another good example: We know that a boolean (bool) variable can only be "true" or "false". Again, we cannot convert a boolean variable to a number (neither int nor double)! Letters are not numbers!
+
+We can, however, convert bool to string. Text is text!
+
+Another quick method to do type conversion is by CASTING. It can be done when converting between types that are not strings. It is very simple to do:
+
+```csharp
+double x = 1.23456;
+int y = (int)x;
+
+Console.WriteLine(y);
+```
+
+The console reads:
+
+```csharp
+1
+```
+
+By the end of this lesson, this is what your code should look like:
+
+```csharp 
+using System;
+
+namespace CSharp
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            string name = "Bob";
+            int age = 25;
+            double pi = 3.14159;
+
+            Console.WriteLine("How many wheels does a car have?");
+
+            int wheels = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("A garage with 5 cars has {0} wheels.", wheels * 5);
+
+            Console.WriteLine("How many people are there in your family? ");
+            string familyMembers = Console.ReadLine();
+
+            Console.WriteLine("Your family has {0} people.", familyMembers);
+
+            var value1 = 10;
+            var value2 = "10";
+
+            bool variable1 = true;
+            char variable2 = 'a';
+
+            var newVariable1 = Convert.ToString(variable1);
+            var newVariable2 = Convert.ToString(variable2);
+
+            double x = 1.23456;
+            int y = (int)x;
+
+            Console.WriteLine(y);
+        }
+    }
+}
+```
+
+#### EXPLORATION EXERCISES:
+
+1) You are a programmer working for a census company. Write an application that prompts the user for the
+number of TV's they have in their homes. If each TV costs $500, how much money has this person spent in TV's?
+Your program must calculate and display the answer.
+
+2) Write a program that prompts the user for their hourly pay and the number of hours worked in a month.
+Calculate and display the salary for that month.
+
+3) Make a console application that prompts the user for the first letter of their first name. Display a
+friendly message with the letter (i.e. "L is my favorite word!").
+
+*****
