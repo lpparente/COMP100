@@ -1,5 +1,7 @@
 # C# in a Nutshell
 
+## Module 1
+
 ### Before we begin...
 
 Before we go ahead through this course, it is recommended that you download the "CSharp" folder in this repository, as you'll then be able to run each file in your C# IDE, and see how each code is supposed to run. Use these files as reference, and consult them if your own files do not work as expected. Also, each file contains exercises for you to practice what you have just learned. Of course, doing them is optional, but it is a good idea to go through them to make sure that you are comfortable with what has just been taught.
@@ -613,3 +615,109 @@ namespace CSharp
 
 *****
 
+### Lesson 7 - Quick Recap (007_Quick_Recap.cs)
+
+Before we continue to the next lessons, it is highly recommended that you make sure that you are comfortable with everything that has been covered so far.
+
+So, let's do a quick recap.
+
+The most common data types that we have worked with are:
+
+- Strings:
+
+```csharp 
+string name = "Bob";
+```
+
+- Integers:
+
+```csharp 
+int age = 25;
+```
+
+- Doubles:
+
+```csharp
+double bobsSalary = 2000.50;
+```
+
+We can ask Bob to input a name of one of his friends:
+
+```csharp
+Console.WriteLine("Bob, please enter a name of one of your friends: ");
+```
+
+And then store this number into a variable:
+
+```csharp
+string bobsFriend = Console.ReadLine();
+```
+
+**Everything entered via Console is a STRING.** So, if we prompt Bob for the number of hands he has:
+
+```csharp
+Console.WriteLine("Bob, please input the number of hands that you have: ");
+```
+
+We must convert the entered value to a number, so we can run mathematical operations with it.
+
+```csharp
+int bobsHands = Convert.ToInt32(Console.ReadLine());
+```
+
+Now this number is suitable for mathematics.
+
+```csharp 
+int numberOfFingers = 5 * bobsHands;
+```
+
+After running our calculations, we can print the result on to the screen using a placeholder {0}.
+
+```csharp 
+Console.WriteLine("Bob has {0} fingers.", numberOfFingers);
+```
+
+However, if no mathematics are needed, it is OK to keep numbers as strings.
+
+```csharp 
+Console.WriteLine("Please enter your phone number: ");
+string phoneNumber = Console.ReadLine();
+```
+
+Bob is 25 years old. He is allowed to drive. Is this statement true or false?
+
+```csharp 
+bool allowedToDrive = true;
+```
+
+Is he old enough to retire?
+
+```csharp
+bool retirementAge = false;
+```
+
+What is the first letter of Bob's name?
+
+```csharp
+char firstLetter = 'b';
+```
+
+Chars can also be numbers (if no mathematics is involved):
+
+```csharp
+char fingersPerHand = '5';
+```
+
+But if some mathematics comes up, we can convert between types, and the world is good again!
+
+```csharp
+int newFingersPerHand = (int)fingersPerHand;
+```
+
+```csharp
+// And our quick recap was neatly commented, so you can come back here anytime for a quick check :)
+```
+
+Before moving to the next Module, make sure that every concept covered up to this point is really under your fingers. Things will start to get more challenging from now on, but I'm sure you're prepared!
+
+If you have any questions so far, feel free to [drop me an e-mail](mailto:lp.parente@gmail.com). I'll be happy to assist you!
