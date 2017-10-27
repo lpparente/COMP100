@@ -307,7 +307,7 @@ double number2 = Console.ReadLine();
          
 ```
 
-Have you tried running the code block above (lines 53 to 58)? **It returns an error!**
+Have you tried running the code block above? **It returns an error!**
 
 This is because, as we said before, EVERYTHING that is written by the user on the Console is a string! If you buy a shoe box, there is no way you're able to store a basketball inside it. Just as you need right boxes for different objects, you need right 
 variable types for different data types.
