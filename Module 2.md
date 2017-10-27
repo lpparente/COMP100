@@ -130,7 +130,6 @@ namespace CSharp
             }
 
             Console.WriteLine("Please input the number of wheels your bike has: ");
-
             int wheels = Convert.ToInt32(Console.ReadLine());
 
             if (wheels == 2)
