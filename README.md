@@ -1,12 +1,20 @@
 # Welcome to C# In A Nutshell!
 
-This repository contains sequential files segmented in short C# lessons. There is a hint as to what the subject of each lesson is on the file's name.
+And welcome to the world of C#! It is an amazing language, and I sincerely hope you enjoy this course as much as I did writing it.
 
-Each file contains detailed instructions and explanations for each code line. They can be either downloaded or have their content copied and pasted into your IDE (Integrated Development Environment) of choice.
+This course is composed of a few Modules that cover the basic concepts of C#. Each Module has sequential short lessons, each covering one specific topic.
 
-In the end of each file there are exploration exercises for the user to put in practice what has been just taught. The subsequential file may contain the solution to those exercises.
+It also contains a folder called CSharp, in which all .cs files for this course are stored. That means you have two alternatives to follow along with this course:
 
-In order to follow this course, it is expected that you have a C# IDE installed in your computer. There is no recommended IDE, as the codes runs equally in any C# compiler. Once you have an IDE, the suggestion is that you open the .cs files herein provided in the notepad (or equivalent), copy the code, and paste it into a new project/solution in your IDE.
+- You can follow each Module file, as they contain clear explanations for each written code line, and at the same time you can have your C# IDE open, where you're able to write the code yourself as we go along.
+
+- Alternatively, you can just download the CSharp folder and open them in your C# IDE. The same comments and explanations are there for you to follow.
+
+Ideally, I'd recommend that you stick to the first one, and download the CSharp folder to use it as reference material. The .cs files in this folder also contain exploration exercises for you to put in practice what has been just taught. The subsequential file may contain the solution to those exercises.
+
+In order to follow this course, it is expected that you have a C# IDE installed in your computer. There is no recommended software, as the codes run equally in any C# compiler.
+
+No reproduction of the content herein included is permitted without the author's formal approval. Plagiarism is crime, and by doing so you accept its legal consequences.
 
 The files are provided as is, and its use and visualization are considered user's full responsibility. The owner of this repository must not be held liable or responsible for the use or misuse of the content shared within any of the files herein attached.
 
