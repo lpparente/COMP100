@@ -1,6 +1,6 @@
 # Welcome to C# In A Nutshell!
 
-And welcome to the world of C#! It is an amazing language, and I sincerely hope you enjoy this course as much as I did writing it.
+And welcome to the world of C#!
 
 This course is composed of a few Modules that cover the basic concepts of C#. Each Module has sequential short lessons, each covering one specific topic.
 
