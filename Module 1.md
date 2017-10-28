@@ -720,6 +720,8 @@ int newFingersPerHand = (int)fingersPerHand;
 
 *****
 
+### Congratulations!
+
 This is the end of Module 1. Congratulations for making it this far!
 
 Before moving to the next Module, make sure that every concept covered up to this point is really under your fingers. Things will start to get more challenging from now on, but I'm sure you're prepared!
