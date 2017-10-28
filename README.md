@@ -14,8 +14,12 @@ Ideally, I'd recommend that you stick to the first one, and download the CSharp 
 
 In order to follow this course, it is expected that you have a C# IDE installed in your computer. There is no recommended software, as the codes run equally in any C# compiler.
 
-No reproduction of the content herein included is permitted without the author's formal approval. Plagiarism is crime, and by doing so you accept its legal consequences.
-
-The files are provided as is, and its use and visualization are considered user's full responsibility. The owner of this repository must not be held liable or responsible for the use or misuse of the content shared within any of the files herein attached.
-
 If you have any questions, comments or suggestions, feel free to contact me at lp.parente@gmail.com.
+
+*****
+
+**The reproduction of the content herein included is NOT permitted without the author's formal approval. Plagiarism is crime, and by doing so you accept its legal consequences.**
+
+The files are provided as is, and its use and visualization are considered user's full responsibility. The owner of this repository must not be held liable or responsible for the use or misuse of the content shared within any of the files herein included.
+
+*****
