@@ -68,7 +68,7 @@ namespace CSharp
             // Ready for a more complex example?
 
             // Let's write a code that prints even numbers normally, but prints an asterisk * right after every odd number.
-            // The range of numbers to be printed are 1 to 50.
+            // The range of numbers to be printed is 1 to 50.
 
             int lastCounter = 1;
 
