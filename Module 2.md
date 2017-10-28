@@ -537,6 +537,8 @@ Retry the exercises from last time, now using else and else if statements.
 
 *****
 
+### Congratulations!
+
 This is the end of Module 2. Congratulations for making it this far!
 
 Before moving to the next Module, make sure that every concept covered up to this point is really under your fingers. Things will start to get more challenging from now on, but I'm sure you're prepared!
