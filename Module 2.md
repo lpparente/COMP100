@@ -469,15 +469,60 @@ switch(age >= 16)
 }
 ```
 
+By the end of this lesson, this is what your code should look like:
+
+```csharp
+using System;
+
+namespace CSharp
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Please input the number of wheels your bike has: ");
+            int wheels = Convert.ToInt32(Console.ReadLine());
+
+            switch(wheels)
+            {
+                case 2:
+                    Console.WriteLine("You have a bicycle.");
+                    break;
+
+                case 3:
+                    Console.WriteLine("You have a tricicle.");
+                    break;
+                
+                default:
+                    Console.WriteLine("ERROR: Invalid input!");
+                    break;
+            }
+
+            Console.WriteLine("Please enter your age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            switch(age >= 16)
+            {
+                case true:
+                    Console.WriteLine("You can apply for a driver's license.");
+                    break;
+
+                case false:
+                    Console.WriteLine("You are not allowed to drive at this moment.");
+                    break;
+
+                default:
+                    Console.WriteLine("ERROR: Invalid input!");
+                    break;
+            }
+        }
+    }
+}
+```
+
 If statements may or may not have an Else statement, that is, Else's are not mandatory. Switch statements, however, must have a Default statement. This is mandatory.
 
 Switch statements are very simple. Make sure to practice in order to get comfortable with how they work!
-
-This is the end of Module 2. Congratulations for making it this far!
-
-Before moving to the next Module, make sure that every concept covered up to this point is really under your fingers. Things will start to get more challenging from now on, but I'm sure you're prepared!
-
-If you have any questions so far, feel free to [drop me an e-mail](mailto:lp.parente@gmail.com). I'll be happy to assist you!
 
 #### EXPLORATION EXERCISES:
 
@@ -488,3 +533,11 @@ Retry the exercises from last time, now using else and else if statements.
 2) Write a program that prompts the user for how many liters of water they drink per day. If the answer is lower than 2 liters, display the message "You should drink more water!". If the answer is greater than or equal to 2 liters, display the message "Good!".
 
 3) Write a console application that prompts the user for their gender. If the answer is "male", display the message "Hello, sir.". If the answer is "female", display the message "Hello, madam.".
+
+*****
+
+This is the end of Module 2. Congratulations for making it this far!
+
+Before moving to the next Module, make sure that every concept covered up to this point is really under your fingers. Things will start to get more challenging from now on, but I'm sure you're prepared!
+
+If you have any questions so far, feel free to [drop me an e-mail](mailto:lp.parente@gmail.com). I'll be happy to assist you!
