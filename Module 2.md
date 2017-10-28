@@ -430,6 +430,7 @@ switch(wheels)
         Console.WriteLine("ERROR: Invalid input!");
         break;
 }
+```
 
 You may have noticed how the code became simple and clearer. That is the advantage of Switch statements.
 
