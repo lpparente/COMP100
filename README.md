@@ -18,7 +18,7 @@ If you have any questions, comments or suggestions, feel free to contact me at l
 
 *****
 
-**The reproduction of the content herein included is NOT permitted without author's formal authorization. Plagiarism is a crime, and by doing so you accept its legal consequences.**
+**The reproduction of the content herein included is permitted without author's formal authorization as long as proper credits are given. Plagiarism is a crime, and by doing so you accept its legal consequences.**
 
 The files are provided as is, and its use and visualization are considered user's full responsibility. The owner of this repository must not be held liable or responsible for the use or misuse of the content shared within any of the files herein included.
 
