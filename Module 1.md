@@ -4,7 +4,11 @@
 
 ### Before we begin...
 
-Before we go ahead through this course, it is recommended that you download the "CSharp" folder in this repository, as you'll then be able to run each file in your C# IDE, and see how each code is supposed to run. Use these files as reference, and consult them if your own files do not work as expected. Also, each file contains exercises for you to practice what you have just learned. Of course, doing them is optional, but it is a good idea to go through them to make sure that you are comfortable with what has just been taught.
+Please make sure to take a look at the [read me file](https://github.com/luizparente/CSharp/blob/master/README.md), as it contains important information for you to know before starting this couse.
+
+Before we go ahead through this course, it is recommended that you download the "CSharp" folder in this repository, as you'll then be able to run each file in your C# IDE, and see how each code is supposed to run. Use these files as reference, and consult them if your own files do not work as expected. 
+
+Also, each file contains exercises for you to practice what you have just learned. Of course, doing them is optional, but it is a good idea to go through them to make sure that you are comfortable with what has just been taught.
 
 Every new C# project is supposed to contain the following lines:
 
