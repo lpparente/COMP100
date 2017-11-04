@@ -1,6 +1,6 @@
-# Welcome to C# In A Nutshell!
+# Welcome to Bootstrapping C#!
 
-And welcome to the world of C#!
+And welcome to the world of programming!
 
 This course is composed of a few Modules that cover the basic concepts of C#. Each Module has sequential short lessons, each covering one specific topic.
 
