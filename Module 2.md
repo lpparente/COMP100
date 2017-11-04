@@ -1,4 +1,4 @@
-# C# in a Nutshell
+# Bootstrapping C#
 
 ## Module 2
 
