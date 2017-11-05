@@ -4,7 +4,14 @@ And welcome to the world of programming!
 
 This course is composed of a few Modules that cover the basic concepts of C#. Each Module has sequential short lessons, each covering one specific topic. It is not required that you have any prior programming knowledge, but surely it will help a lot if you know something about some programming language.
 
-It also contains a folder called CSharp, in which all .cs files for this course are stored. That means you have two alternatives to follow along with this course:
+These are the modules of this course:
+
+- [Module 1](https://github.com/luizparente/CSharp/blob/master/Module%201.md): Covers all the basic concepts of C#, such as variables, data types, console printing and reading, etc.
+- [Module 2](https://github.com/luizparente/CSharp/blob/master/Module%202.md): Covers basic flow control methods, such as If, Else and Switch statements.
+- [Module 3](https://github.com/luizparente/CSharp/blob/master/Module%203.md): Covers looping structures, such as Do-While and For loops.
+- Module 4: Under development. Will cover the basics of creating functions, methods and classes.
+
+This respository also contains a folder called [CSharp](https://github.com/luizparente/CSharp/tree/master/CSharp), in which all .cs files are stored. That means you have two alternatives to follow along with this course:
 
 - You can follow each Module file, as they contain clear explanations for each written code line, and at the same time you can have your C# IDE open, where you're able to write the code yourself as we go along.
 
