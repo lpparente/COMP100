@@ -2,7 +2,7 @@
 
 And welcome to the world of programming!
 
-This course is composed of a few Modules that cover the basic concepts of C#. Each Module has sequential short lessons, each covering one specific topic. It is not required that you have any prior programming knowledge, but surely it will help a lot if you know something about some programming language.
+This course is composed of four Modules that cover the basic concepts of C#. Each Module has sequential short lessons, each covering one specific topic. It is not required that you have any prior programming knowledge, but surely it will help a lot if you know something about some programming language.
 
 These are the modules of this course:
 
