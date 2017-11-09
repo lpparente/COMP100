@@ -170,7 +170,7 @@ of code within the loop will be repeated for an unknown number of times.
 However, there are times in which you want a repeating block of code to run for an specific number of times. For those
 situations, C# has the For loop.
 
-Similarly to the Do-While loop, For loops also make use of counter variables. Although, the structure is a little different. When writing a For statement, there are three parameters that must be declared with it. Let's call them a, b and c.
+Similarly to the While loop, For loops also make use of counter variables. Although, the structure is a little different, as For statements allows for more control over the looping. When writing a For statement, there are three parameters that must be declared with it. Let's call them a, b and c.
 
 - a is the number in which the counter starts;
 - b is the number up to which the counter must go to;
@@ -190,7 +190,7 @@ for (counter = 1; counter <= 5; counter = counter + 1)
 }
 ```
 
-As you may have noticed, there is very little difference in the syntax we used in the last lesson for the Do-While statement. Let's see another example. Say we want to print on the screen all numbers from 1 to 10, but placing an asterisk in the even numbers.
+As you may have noticed, there is very little difference in the syntax we used for While statements. Let's see another example. Say we want to print on the screen all numbers from 1 to 10, but placing an asterisk in the even numbers.
 
 ```csharp
 // Let's get elegant and declare the counter inside the statement.
