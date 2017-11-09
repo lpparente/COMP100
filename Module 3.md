@@ -155,7 +155,13 @@ Remark: Factorial of 5 = 5! = 5 * 4 * 3 * 2 * 1.
 
 *****
 
-### Lesson 12 - For Statement (012_For_Statement.cs)
+### Lesson 12 - While Statement
+
+Coming soon!
+
+*****
+
+### Lesson 13 - For Statement (013_For_Statement.cs)
 
 Basically, there are two types of loops. The Do-While loop that we covered in the last lesson is destined to applications
 in which you do not know exactly the number of iterations (loops) that is going to be done by the program, that is, the block
