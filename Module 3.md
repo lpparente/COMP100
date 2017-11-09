@@ -216,23 +216,13 @@ namespace CSharp
     {
         public static void Main(string[] args)
         {
-            // Declaring counters.
             int counter;
 
-            // The counter variable is declared inside as a parameter.
-            // It starts at 1, and goes up to 5, increasing 1 unit at a time.
             for (counter = 1; counter <= 5; counter = counter + 1)
             {
                 Console.WriteLine(counter);
             }
 
-            /*
-            As you may have noticed, there is very little difference in the syntax we used in the last lesson for the Do-While statement.
-            Let's see another example. Say we want to print on the screen all numbers from 1 to 10, but placing an asterisk in the even numbers.            
-            */
-
-            // Let's get elegant and declare the counter inside the statement.
-            // The loop starts on 1, goes up to 50, one by one.
             for (int i = 1; i <= 50; i++)
             {
                 if (i % 2 == 0)
@@ -245,12 +235,6 @@ namespace CSharp
                     Console.WriteLine(i);
                 }
             }
-
-            /*
-            This is all there is to it. The statement itself is very simple, but it takes a little practice to memorize the 
-            mechanics of it. Don't forget to give it a go on the exploration exercises and get the For statement under your
-            fingers, as they are very popular and very important in the daily life of a programmer.
-            */
         }
     }
 }
