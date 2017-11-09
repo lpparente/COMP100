@@ -20,10 +20,10 @@ namespace CSharp
             // Declaring counters.
             int counter = 1;
 
-            // The counter variable is declared inside as a parameter.
-            // It starts at 1, and goes up to 5, increasing 1 unit at a time.
+            // While counter is less than or equal to 5...
             while (counter <= 5)
             {
+                // ... Do this.
                 Console.WriteLine(counter);
 
                 counter++;
