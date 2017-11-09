@@ -173,7 +173,7 @@ Similarly to the Do-While loop, For loops also make use of counter variables. Al
 Let's take a look at an example. If we wanted to use a For loop to make a code that counts from 1 to 5, here is what it would look like:
 
 ```csharp
-/ Declaring counters.
+// Declaring counters.
 int counter;
 
 // The counter variable is declared inside as a parameter.
