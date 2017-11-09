@@ -21,7 +21,7 @@ Ideally, I'd recommend that you stick to the first one, and download the CSharp 
 
 In order to follow this course, it is expected that you have a C# IDE installed in your computer. There is no recommended software, as the codes run equally in any C# compiler.
 
-In case you need to know something that is not covered in this course, the [official C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/) is the ideal place to research.
+In case you need to know something that is not covered in this course, the [official C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/) is the ideal place for research.
 
 If you have any questions, comments or suggestions, feel free to contact me at lp.parente@gmail.com.
 
