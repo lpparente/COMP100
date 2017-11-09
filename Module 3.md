@@ -167,8 +167,7 @@ And then, the block of code inside the While statement will run as many times as
 // Declaring counters.
 int counter = 1;
 
-// The counter variable is declared inside as a parameter.
-// It starts at 1, and goes up to 5, increasing 1 unit at a time.
+// While counter is less than o equal to 5:.
 while (counter <= 5)
 {
     Console.WriteLine(counter);
