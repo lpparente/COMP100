@@ -167,9 +167,10 @@ And then, the block of code inside the While statement will run as many times as
 // Declaring counters.
 int counter = 1;
 
-// While counter is less than o equal to 5:.
+// While counter is less than o equal to 5...
 while (counter <= 5)
 {
+    // ... Do this:
     Console.WriteLine(counter);
 
     counter++;
