@@ -163,12 +163,9 @@ Coming soon!
 
 ### Lesson 13 - For Statement (013_For_Statement.cs)
 
-Basically, there are two types of loops. The Do-While loop that we covered in the last lesson is destined to applications
-in which you do not know exactly the number of iterations (loops) that is going to be done by the program, that is, the block
-of code within the loop will be repeated for an unknown number of times.
+Basically, there are two types of loops. While-type loops are destined to applications in which you do not know exactly the number of iterations (loops) that is going to be done by the program, that is, the block of code within the loop will be repeated for an unknown number of times.
 
-However, there are times in which you want a repeating block of code to run for an specific number of times. For those
-situations, C# has the For loop.
+However, there are times in which you want a repeating block of code to run for an specific number of times. For those situations, C# has the For loop.
 
 Similarly to the While loop, For loops also make use of counter variables. Although, the structure is a little different, as For statements allows for more control over the looping. When writing a For statement, there are three parameters that must be declared with it. Let's call them a, b and c.
 
