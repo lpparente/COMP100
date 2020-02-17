@@ -2,13 +2,13 @@
 
 ## Module 2
 
-### Lesson 8 - If Statement (008_If_Statement.cs)
+### Lesson 8 - If Statements
 
 There are times when coding an application that not all lines of code are meant to run every time. When that is the case, the application has only one very limited purpose.
 
 We want to strive beyond that, don't we?
 
-This lesson will teach you how to code a smarter code, in the sense that it will be able to make decisions based on specific conditions. This is called a Control Structure, meaning that a set of instructions will be performed in case a condition is satisfied.
+This lesson will teach you how to write smarter code, in the sense that it will be able to make decisions based on specific conditions. This is called a Control Structure, meaning that a set of instructions will be performed in case a condition is satisfied.
 
 As an example, let's write a code that checks if the user is old enough to drive a car.
 
@@ -27,12 +27,18 @@ Now, there are only two scenarios in this context:
 
 There is no other alternative!
 
-Most programming languages will have a statement called "if", that will do something **IF** some condition is met.
+Programming languages have something called "if statements", that will do something **IF** some condition is met.
 
 - **IF** user's age is greater than or equal to 16, then they are allowed to apply for a license.
 - **IF** user's age is lower than 16, then they are not allowed to drive.
 
-Let's put it into C#:
+In order to achieve that, we have to be familiar with comparison operators:
+- Greater than ```>``` and greater than or equal to ```>=```.
+- Lower than ```<``` and lower than or equal to ```>=```.
+- Equals ```==```.
+- Different ```!=```.
+
+Let's put it in terms of C#:
 
 ```csharp
 // IF age is greater than or equal to 16...
@@ -85,25 +91,16 @@ if (wheels == 3)
 }
 ```
 
-The condition that is determined within round brackets () is a boolean. It can be either true or false.
+The condition that is determined within round brackets () is a ```boolean```. It can be either ```true``` or ```false``` - and nothing else.
             
-These conditions are, in very simple terms, a comparison. In the last example, we are comparing the variable wheels with the number 2 and 3. In order to do comparisons, we must use comparison operators, just as we are used to do in mathematics. They are:
+These conditions are, in very simple terms, a comparison (hence the name, comparison operators). In the last example, we are comparing the variable wheels with the number 2 and 3. 
 
-- Greater than (>);
-- Equal to (==);
-- Lower than (<).
-
-The "equal to" comparison operator is the only one that may appear alone, or along with one of the others:
-
-- Greater than or equal to (>=);
-- Lower than or equal to (<=).
-
-Mind you that the "equal to" condition defined in the round brackets () of our if statements contain two equal signs ==. This is because, in programming, one single equal sign is a definition operator. The equivalent comparison operator is ==.
+Mind you that the "equal to" condition defined in the round brackets () of our if statements contain two equal signs ==. This is because, in programming, one single equal sign is an assignment operator. The equivalent comparison operator is ```==```.
 
 There is a big difference:
 
-- ```a = 10``` : Assigns the value 10 to the variable a.
-- ```a == 10```: Compares the number 10 with the variable a. This statement can be either true or false.
+- ```a = 10``` : Assigns the value ```10``` to the variable ```a```.
+- ```a == 10```: Compares the number ```10``` with the variable ```a```. This statement returns a ```bool```.
 
 By the end of this lesson, this is what your code should look like:
 
@@ -155,16 +152,16 @@ temperature is higher than 20 degrees, display the message "Too warm!".
 2) Write a program that prompts the user for how many liters of water they drink per day. If the answer is lower than 2 liters,
 display the message "You should drink more water!". If the answer is higher than 2 liters, display the message "Good!".
 
-3) Write a console application that prompts the user for their gender. If the answer is "male", display the message "Hello, sir.".
+3) Write a console application that prompts the user for their sex. If the answer is "male", display the message "Hello, sir.".
 If the answer is "female", display the message "Hello, madam.".
 
 *****
 
-### Lesson 9 - Else Statement (009_Else_Statement.cs)
+### Lesson 9 - Else Statement
 
-Virtually every program can be developed only by using if statements for flow control. However, there are other statements that can be used not only to save time, but also make our lives easier as programmers.
+Virtually every program can be developed only by using if statements for flow control. However, there are other statements that can be used not only to save time, but also make our lives a lot easier.
 
-Think of a problem that could have 50 possible inputs, but 40 of them would have to follow the same procedure, regardless. If everything you know to solve this problem are if statements, then you would have to write 50 if code blocks. That takes a lot of time, apart from not being professional nor elegant. Here is where the "else statement" comes in.
+Think of a problem that could have 50 possible inputs, but 40 of them would have to follow the same procedure, regardless. If everything you know to solve this problem is if statements, then you would have to write 50 if-blocks. That takes a lot of time, apart from not being very professional. Here is where the else statement comes in handy.
 
 Else statements are to be used when more than one alternative is possible to handle the information the application is working with.
 
@@ -173,7 +170,7 @@ Basically, it works as follows:
 - IF some condition is met -> Do this.
 - OR ELSE -> Do that.
 
-As an example, we want to write again a code that checks if the user is old enough to drive a car.
+As an example, we want to write a code that checks if the user is old enough to drive a car.
 
 ```csharp
 // We prompt the user for their age:
@@ -198,7 +195,7 @@ if (age >= 16)
     Console.WriteLine("You can apply for a driver's license!");
 }
 
-// The previous "if (age < 16)" is replaced with:
+// The previous "if (age < 16)", from last lesson, is replaced with:
 else
 {
     // Or else, do this:
@@ -229,9 +226,9 @@ else
 }
 ```
 
-There are times in which the Else statement can be segmented into different sub-paths. Let's try a code that gives a customer a discount based on the total price of their purchase. Amounts greater than $100 get a 10% discount. However, amounts greater than $150 get 15% discount.
+There are times in which the else statement can be segmented into different sub-paths. Let's try a code that gives a customer a discount based on the total price of their purchase. Amounts greater than $100 get a 10% discount. However, amounts greater than $150 get 15% discount.
 
-In order to easily understand this problem, we must be familiar with the concept of Nested If's. It means having one If inside another If. 
+In order to easily understand this problem, we must be familiar with the concept of nested if's. It means having one if inside of the other. 
 
 This is how it works:
 
@@ -259,7 +256,7 @@ if (price > 100)
 }
 ```
 
-Nested If's are often used, but the drawback is that they may be harder to read and be clearly understood. Let's try a more elegant code to solve the same problem:
+Obviously, there are better ways of writing this code, but let's keep that as is, for the sake of the exercise. Nested if's are often used, but the drawback is that they may be harder to read and be clearly understood. Let's try a more elegant code to solve the same problem:
 
 ```csharp
 // Prompt for an input:
@@ -288,12 +285,9 @@ else
 }
 ```
 
-**Quick note:** You don't always have to work with Else and Else If statements. However, some rules must always be followed:
+**Quick note:** You don't always have to work with else and else if statements. Just use your best judgement and do whatever is best for the problem you are tring to solve.
 
-- If used, Else's must always come after If's.
-- When Else If's are used, there MUST BE a last Else to close the block. Otherwise an error will occur.
-
-As you can see, Else and Else If statements enrich our code, allowing us to be more efficient programmers. If you were able to easily understand the If statement, you probably noticed that there is not much difference between the two. However, it may need some practice for the concept to be fully grasped.
+As you can see, else and else if statements enrich our code, allowing us to be more efficient programmers. If you were able to understand if statements easily, you probably noticed that there is not a lot of difference between the two. However, it may need some practice to fully understand the whole concept.
 
 By the end of this lesson, this is what your code should look like:
 
@@ -373,7 +367,7 @@ namespace CSharp
 
 #### EXPLORATION EXERCISES:
 
-Retry the exercises from last time, now using else and else if statements.
+Give it another go on the exercises from last time, now using else and else if statements.
 
 1) Write a program that prompts the user for the current ambient temperature. If the temperature is lower than 20 degrees,
 display the message "Too cold!". If the temperature is equal to 20, display the message "Good temperature.". If the
@@ -387,13 +381,13 @@ message "Hello, sir.". If the answer is "female", display the message "Hello, ma
 
 *****
 
-### Lesson 10 - Switch Statement (010_Switch_Statement.cs)
+### Lesson 10 - Switch Statement
 
-If and Else statements are powerful tools for flow control in most programming languages. However, when it comes to a more complex code, with a lot of possible paths, it may become a little harder to read. 
+If and else statements are powerful tools for flow control in programming languages. However, when it comes to a more complex code, with a lot of possible paths, things may get a little harder to read. 
 
-For this reason, simple structures with many possible paths may have its readability improved by the use of Switch statements.
+For this reason, simple structures with many possible paths may have its readability improved by the use of switch statements.
 
-Switch statements work very similarly to If and Else statements. The difference is that they are simpler and a bit less powerful, yet
+Switch statements work very similarly to if and else statements. The difference is that they are simpler and a bit less powerful, yet
 very useful for flow control.
 
 Let's start with a simple example from a previous lesson. We want to write a code that checks if the user has a bicycle or a tricicle.
@@ -432,14 +426,13 @@ switch(wheels)
 }
 ```
 
-You may have noticed how the code became simple and clearer. That is the advantage of Switch statements.
+You may have noticed how the code became simple and clearer. That is the advantage of switch statements.
 
-Switch statements can also be used to check the value of an expression. But in order to do that, you must remember what a bool Data Type is. Do you?
+Switch statements can also be used to check the value of an expression. But in order to do that, you must remember what a ```bool``` data type is. Do you?
 
-Bool's are variables that can only hold the values 'true' or 'false'. These are not strings, but computational values that determine whether a condition is truth or false.
+Booleans are variables that can only hold the values ```true``` or ```false```. These are not strings, but computational values that determine whether a condition is true or false.
 
 Let's take a look at an example from our previous lesson. We want to write a code that checks if the user is old enough to drive a car.
-Let's take a look at an example from our previous lesson.
 
 ```csharp
 // We start our code:
@@ -469,6 +462,8 @@ switch(age >= 16)
         break;
 }
 ```
+
+This is not good code, and in real life, you will never find this kind of thing. But it is here, so you know it is possible.
 
 By the end of this lesson, this is what your code should look like:
 
@@ -542,5 +537,3 @@ Retry the exercises from last time, now using else and else if statements.
 This is the end of Module 2. Congratulations for making it this far!
 
 Before moving to the next Module, make sure that every concept covered up to this point is really under your fingers. Things will start to get more challenging from now on, but I'm sure you're prepared!
-
-If you have any questions so far, feel free to [drop me an e-mail](mailto:lp.parente@gmail.com). I'll be happy to assist you!
